@@ -1,0 +1,174 @@
+.emergncy_contact h2{
+    margin-bottom: 2rem;
+    
+
+}
+
+h3{
+  margin-bottom: 3rem;
+  text-align: center;
+}
+:root{
+    --color-primary:#6c63ff;
+    --color-success:#00bf8e;
+    --color-warning:#f7c94b;
+    --color-danger:#f75842;
+    --color-danger-variant: rgba(247,88,66,0.4);
+    --color-white:#fff;
+    --color-light:rgba(255,255,255,0.7);
+    --color-black:#000;
+    --color-bg:#1f2641;
+    --color-bg1:#2e3267;
+    --color-bg2:#424890;
+  
+    --color-width-lg:90%;
+    --color-width-md:90%;
+    --color-width-sm:94%;
+    --transition:all 400ms ease; 
+  
+  }
+
+.contact_container{
+    background: var(--color-bg2);
+    width: var(--color-width-lg);
+    padding-top: 1rem;
+  
+  }
+
+  .emergncy_img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 1rem;
+  }
+
+  .contact_container{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    background: var(--color-bg2);
+  }
+  .contact_container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 1rem;
+  }
+
+  .emg, .emg{
+    padding: 1rem;
+    text-align: center;
+   
+  }
+  .emg p{
+    margin-top: 1rem;
+    padding: 3px;
+
+  }
+
+.emg p{
+    margin-top: 1rem;
+    padding: 3px;
+
+}
+.location{
+  margin-bottom: 0.5rem;
+}
+.emergncy_contact{
+    padding: 1rem;
+}
+
+.contact-col h3{
+  margin-bottom: 3rem;
+}
+.contact-us h3{
+  text-align: center;
+}
+.location{
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+
+}
+.location iframe{
+  width: 100%;
+}
+
+
+.contact-us{
+  width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.contact-col{
+  flex-basis: 48%;
+  margin-bottom: 30px;
+  padding: 2rem;
+}
+
+.contact-col div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-col div .fa{
+  font-size: 28px;
+  color: #f44336;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+.contact-col div h5{
+  font-size: 20px;
+  margin-bottom:8px ;
+  color:var(--color-white);
+  font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid darkgray;
+  border-radius: 1rem;
+
+  box-sizing:border-box ;
+}
+
+.uil{
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1024px){
+
+  .contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    padding: 1rem;
+ }
+
+ .contact-us{
+  padding-bottom: 1rem;
+ }
+    
+}
+
+@media screen and (max-width: 600px){
+
+  .contact_container{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    gap: 1rem;
+    border-radius:  1rem; 
+  }
+
+    .contact-col{
+      padding-left: 1rem;
+      
+      border-radius: 1rem; 
+
+    }
+    
+}

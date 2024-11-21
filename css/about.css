@@ -1,0 +1,372 @@
+
+.teacher_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+.teachers_members{
+    background: var(--color-bg2);
+    padding: 2rem;
+    border: 1px solid transparent;
+  }
+.team_info h4{
+    text-align: center;
+    padding: 2rem;
+  
+  }
+  .team_info a{
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  
+  }
+.team_info{
+    text-align: center;
+  }
+.teachers_members:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+  
+  }
+  
+.team_image img{
+    filter: saturate(0.5);
+    height: 48vh;
+    
+  }
+.team_image img:hover {
+    filter: saturate(1);
+}
+
+.teachers{
+    margin-top: 2rem;
+    border-top: 1px solid var(--color-white);
+  }
+  .teachers h2{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .principle {
+  margin-top: 2px;
+  margin-bottom: 1px;
+  }
+
+  :root{
+    --color-primary:#6c63ff;
+    --color-success:#00bf8e;
+    --color-warning:#f7c94b;
+    --color-danger:#f75842;
+    --color-danger-variant: rgba(247,88,66,0.4);
+    --color-white:#fff;
+    --color-light:rgba(255,255,255,0.7);
+    --color-black:#000;
+    --color-bg:#1f2641;
+    --color-bg1:#2e3267;
+    --color-bg2:#424890;
+  
+    --color-width-lg:80%;
+    --color-width-md:90%;
+    --color-width-sm:94%;
+    --transition:all 400ms ease; 
+  
+  }
+h3,
+h1{
+  text-align: center;
+  margin: 1rem;
+  padding: 1px;
+}
+
+
+
+.prin-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  border-radius: 1rem;
+}
+.prin-img2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  border-radius: 1rem;
+}
+.principle h3{
+  text-align: center;
+  padding: 1rem ;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-black);
+};
+
+.principle{
+  padding: 1rem;
+}
+
+.principle p{
+  font-weight: 600;
+ padding: 1rem;
+  
+ 
+}
+.sing {
+  text-align: right;
+  padding: 2rem;
+  border-bottom: 1px solid var(--color-black);
+ 
+
+}
+
+
+.about-us{
+    margin-top: 4rem;
+    
+
+  }
+  .about-us{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.475),rgba(0, 0, 0, 0.799)),url(../img/clg2.jpg)
+
+  }
+.about-left b{
+    color: var(--color-danger)
+  }
+  .about-left p{
+    text-align: left;
+  }
+  .about-container{
+    text-align: center;
+
+  }
+  .about-right{
+    display: none;
+  }
+  .about-left h5{
+
+    font-weight: 460;
+
+  }
+  .about-left p{
+    font-weight: 500;
+    padding: 1px;
+    /* text-align: left; */
+
+  }
+  .about-left p btn{
+    color: #00bf8e;
+  }
+
+  .about-right img{
+    width: 90%;
+    height: auto;
+    border-radius: 2rem;
+    border: 1px solid green;
+  }
+
+
+@media screen and (max-width: 1024px){
+
+    .teacher_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+      }
+      .teachers_members{
+        background: var(--color-bg2);
+        padding: 2rem;
+        border: 1px solid transparent;
+      }
+      .team_info h4{
+        text-align: center;
+        padding: 2rem;
+      
+      }
+      .team_info a{
+        text-align: center;
+        padding: 1rem;
+        border-radius: 0.5rem;
+      
+      }
+      .team_info{
+        text-align: center;
+      }
+      .teachers_members:hover {
+        background: transparent;
+        border-color: var(--color-primary);
+      
+      }
+      .prin-img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        border-radius: 1rem;
+      }
+      
+      .team_image img{
+        filter: saturate(0.5);
+        height: 48vh;
+        
+      }
+      .team_image img:hover {
+        filter: saturate(1);
+      }
+
+
+
+      .about-left b{
+        color: var(--color-success)
+      }
+      .about-left p{
+        text-align: left;
+      }
+      .about-container{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+  
+      }
+      .about-right{
+        display: none;
+      }
+}
+@media screen and (max-width: 600px){
+
+  .teacher_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .teachers_members{
+    background: var(--color-bg2);
+    padding: 2rem;
+    border: 1px solid transparent;
+  }
+  .team_info h4{
+    text-align: center;
+    padding: 2rem;
+  
+  }
+  .prin-img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 1rem;
+  }
+  .team_info a{
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  
+  }
+  .team_info{
+    text-align: center;
+  }
+  .teachers_members:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+  
+  }
+  
+  .team_image img{
+    filter: saturate(0.5);
+    height: 48vh;
+    
+  }
+  .team_image img:hover {
+    filter: saturate(1);
+  }
+  .teachers{
+    padding-bottom: 1rem;
+  }
+  .Teacher2{
+    padding-top: 1rem;
+  }
+  .facilities-col img{
+    width: 21rem;
+    height: 21rem;
+    border-radius: 20%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg1);
+  }
+
+}
+@media screen and (max-width: 450px){
+  .team_image img{
+    height: 33vh;
+  }
+
+  .facilities-col img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg1);
+  }
+}
+@media screen and (max-width: 400px){
+  
+
+  .facilities-col img{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 20%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg1);
+  }
+}
+
+.facilities{
+  overflow-x: hidden;
+  position: relative;
+  margin-bottom:5rem;
+}
+.facilities{
+  padding-top: 2rem;
+}
+.facilities-col img{
+  width: 25rem;
+  height: 25rem;
+  border-radius: 20%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  border: 1rem solid var(--color-bg1);
+}
+.facilities-col h3{
+  text-align: center;
+
+}
+.facilities-col h3{
+  background: var(--color-primary);
+  padding-top: 2.2rem;
+  padding-bottom: 1.5rem;
+  margin-top: 3rem;
+  position: relative;
+
+}
+.facilities-col h3{
+  text-align: center;
+}
+
+.facilities-col h3::before{
+  content: "";
+  display: block;
+  background: linear-gradient(135deg,transparent,
+  var(--color-primary),
+  var(--color-primary));
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 50%;
+  top: -1.5rem;
+  transform: rotate(45deg);
+
+}
